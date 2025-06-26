@@ -1,0 +1,61 @@
+.services-sec{
+    width: 100%;
+    min-height: 40vh;
+    padding-bottom: 4rem;
+    padding-top: 3rem;
+    background-color: azure;
+}
+.services-inner{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+.services-title{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    justify-content: center;
+    gap: 4rem;
+}
+
+.service{
+    background-color: aliceblue;   
+    border: solid 1px #8cb62f;
+    width: 13rem;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+.service-icon-con{
+    width: 6rem;
+    height: 5rem;
+    margin: 0 auto;
+}
+.service-icon{
+    width: 100%;
+
+}
+
+
+.service-desc h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
+.service-desc p{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: cinzel;
+    font-size: 12px;
+    
+}

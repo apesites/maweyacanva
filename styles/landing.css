@@ -1,0 +1,63 @@
+.landing{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../imgaes/footer.jpg');
+    background-position: center;
+    background-size: 100%;
+}
+.landing-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(111, 226, 249, 0.34678);
+    padding-top: 5rem;
+}
+
+.landing-logo-con{
+    z-index: 100;
+    width: 30%;
+}
+.landing-logo{
+    width: 100%;
+}
+
+
+.landing-links-con{
+    display: flex;
+    flex-direction: column;
+}
+
+.landing-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-family: cinzel;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.landing-description{
+    width: 95%;
+    margin: 0 auto;
+    color: white;
+    font-family: cinzel;
+    text-align: center;
+}
+@media (max-width: 563px) {
+    .landing-links a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+        width: 95%;
+    }
+}

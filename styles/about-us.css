@@ -1,0 +1,85 @@
+.about-us{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    background-color: azure;
+}
+.about-us-inner{
+    width: 90%;
+    background: linear-gradient( rgb(176, 218, 136), rgb(201, 200, 200));
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.about-us-header{
+    display: flex;
+    margin: 0 auto;
+}
+.about-us-paragraph{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.left-paragraph{
+    width: 40%;
+
+}
+.right-paragraph{
+    width: 40%;
+}
+
+
+.quotation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.quote-link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 2rem;
+    background-color: rgb(85, 196, 34);
+}
+.quote-link a{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}
+
+.quote-icon{
+    width: 2rem;
+    margin-right: 10px;
+}
+
+@media (max-width: 690px) {
+    .about-us-header h2{
+        font-size: 20px;
+        text-align: center;
+    }
+    .about-us-paragraph{
+        flex-direction: column;
+    }
+    .left-paragraph{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .right-paragraph{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+}

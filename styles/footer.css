@@ -1,0 +1,121 @@
+.footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    display: flex;
+    background-image: url('../imgaes/footer.jpg');
+    background-size: 100%;
+    background-position: center;
+    color: white;
+}
+.footer-inner{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin:  0 auto;
+}
+
+.footer-info-con{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.get-in-touch{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.get-in-touch h2{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.registration-no{
+    padding-bottom: 28px;
+    font-size: 13px;
+}
+
+
+.get-in-touch p{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+.get-in-touch span{
+    font-weight: bolder;
+    font-family: cinzel;
+}
+
+.contact-info{
+    width: 30%;
+}
+.contact-info h4{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.ape-sites-tag{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 2px black;
+    width: 70%;
+    margin: 0 auto;
+}
+.ape-sites-tag span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.ape-sites-tag a{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+.ape-sites-icon{
+    width: 3rem;
+}
+
+.ape-sites-insta{
+    width: 2rem;
+}
+
+@media (max-width: 640px) {
+    .footer-info-con{
+        flex-direction: column;
+        padding-bottom: 2rem;
+    }
+    .get-in-touch{
+        width: 95%;
+        margin:  0 auto;
+    }
+    .get-in-touch h2{
+        font-size: 17px;
+        text-align: center;
+    }
+    .contact-info{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-info p{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .footer-info-con{
+        gap: 1rem;
+    }
+    .ape-sites-tag{ 
+        width: 95%;
+    }
+    .ape-sites-icon{
+        width: 3rem;
+        height: 3rem;
+        padding-top: 1rem;
+        margin: 0 auto;
+    }
+}
